@@ -1,0 +1,29 @@
+﻿{
+    "timestamp":  "2026-03-18T00:21:08.4425110+08:00",
+    "scenario":  "baseline-50",
+    "players":  50,
+    "observed":  {
+                     "cpuMsPerTick":  1.42,
+                     "avgKbPerObserverPerSec":  5.8,
+                     "peakKbPerObserverPerSec":  10.6
+                 },
+    "budgets":  {
+                    "cpuMsPerTick":  1.5,
+                    "avgKbPerObserverPerSec":  6,
+                    "peakKbPerObserverPerSec":  12
+                },
+    "utilization":  {
+                        "cpuPct":  94.67,
+                        "avgPct":  96.67,
+                        "peakPct":  88.33
+                    },
+    "passes":  {
+                   "cpu":  true,
+                   "avgBandwidth":  true,
+                   "peakBandwidth":  true
+               },
+    "pass":  true,
+    "suggestions":  [
+                        "Baseline budget met. Keep current defaults and proceed to 100-player estimate."
+                    ]
+}

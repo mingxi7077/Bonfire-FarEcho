@@ -1,0 +1,4 @@
+﻿"metric","projected","budget","utilizationPct","pass"
+"projected_cpu_ms_per_tick","3.408","3.6","94.67","True"
+"projected_avg_kb_per_observer_per_sec","13.92","14.4","96.67","True"
+"projected_peak_kb_per_observer_per_sec","25.44","28.8","88.33","True"

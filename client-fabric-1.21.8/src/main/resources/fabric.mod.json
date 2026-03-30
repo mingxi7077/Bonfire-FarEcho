@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "farecho",
+  "version": "${version}",
+  "name": "Bonfire FarEcho Client",
+  "description": "Far-distance player echo renderer (HUD + world marker)",
+  "authors": [
+    "Bonfire"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bonfire.farecho.client.FarEchoClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

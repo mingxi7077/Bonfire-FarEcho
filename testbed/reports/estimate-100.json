@@ -1,0 +1,36 @@
+﻿{
+    "timestamp":  "2026-03-18T00:21:08.8906720+08:00",
+    "scenario":  "estimate-100",
+    "baselinePlayers":  50,
+    "targetPlayers":  100,
+    "safetyFactor":  1.2,
+    "baseline":  {
+                     "cpuMsPerTick":  1.42,
+                     "avgKbPerObserverPerSec":  5.8,
+                     "peakKbPerObserverPerSec":  10.6
+                 },
+    "projected":  {
+                      "cpuMsPerTick":  3.408,
+                      "avgKbPerObserverPerSec":  13.92,
+                      "peakKbPerObserverPerSec":  25.44
+                  },
+    "budgets":  {
+                    "cpuMsPerTick":  3.6,
+                    "avgKbPerObserverPerSec":  14.4,
+                    "peakKbPerObserverPerSec":  28.8
+                },
+    "utilization":  {
+                        "cpuPct":  94.67,
+                        "avgPct":  96.67,
+                        "peakPct":  88.33
+                    },
+    "passes":  {
+                   "cpu":  true,
+                   "avgBandwidth":  true,
+                   "peakBandwidth":  true
+               },
+    "pass":  true,
+    "suggestions":  [
+                        "100-player estimate remains inside recommended envelope."
+                    ]
+}

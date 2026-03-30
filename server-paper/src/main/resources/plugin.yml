@@ -1,0 +1,19 @@
+name: BonfireFarEcho
+version: ${version}
+main: com.bonfire.farecho.server.FarEchoServerPlugin
+api-version: "1.21"
+authors:
+  - Bonfire
+commands:
+  farecho:
+    description: FarEcho admin and debug commands
+    usage: /farecho <stats|reload|trace>
+permissions:
+  farecho.admin:
+    default: op
+  farecho.hidden:
+    default: false
+  farecho.see.hidden:
+    default: op
+  farecho.see.invisible:
+    default: op

@@ -1,0 +1,26 @@
+maxTargetsPerObserver: 64 # 每个观察者单轮最多下发目标数；越大越全但更耗 CPU/带宽
+maxRadiusChunks: 512 # FarEcho 最大处理半径（区块）；512 区块 = 8192 方块
+nativeTrackingRangeChunks: 8 # 原版实体接管半径（区块）；该范围内让位原版避免双显
+
+near: # 近层刷新配置（近距离目标）
+  bandEndChunks: 64 # near 层距离上限（区块）；<= 该值归入 near
+  refreshMs: 250 # near 层刷新间隔（毫秒）；越小越流畅但更耗资源
+
+mid: # 中层刷新配置（中距离目标）
+  bandEndChunks: 128 # mid 层距离上限（区块）；>near 且 <= 该值归入 mid
+  refreshMs: 500 # mid 层刷新间隔（毫秒）
+
+far: # 远层刷新配置（远距离目标）
+  refreshMs: 1000 # far 层刷新间隔（毫秒）；优先用于控制大范围带宽
+
+degradeThresholds: # 退化阈值（触发 directionOnly，仅方向+距离）
+  distanceChunks: 512 # 距离退化阈值（区块）；建议先与 maxRadiusChunks 保持一致
+  targetCount: 48 # 数量退化阈值；候选过多时后段目标退化
+
+rules: # 规则过滤与关系判定
+  hideSpectatorTargets: true # 是否隐藏旁观模式目标（正式服建议 true）
+  hostileDistance: 128.0 # 敌对关系判定距离（方块）
+  recentCombatWindowMs: 15000 # 最近战斗信号窗口（毫秒）
+  recentInteractionWindowMs: 30000 # 最近交互信号窗口（毫秒）
+
+debugEnabled: false # 是否启用 debug_stats 下发与调试日志（压测可临时开启）

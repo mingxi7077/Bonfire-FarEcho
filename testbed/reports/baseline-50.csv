@@ -1,0 +1,4 @@
+﻿"metric","observed","budget","utilizationPct","pass"
+"cpu_ms_per_tick","1.42","1.5","94.67","True"
+"avg_kb_per_observer_per_sec","5.8","6","96.67","True"
+"peak_kb_per_observer_per_sec","10.6","12","88.33","True"

@@ -1,0 +1,46 @@
+﻿{
+    "timestamp":  "2026-03-18T00:22:07.5664126+08:00",
+    "overallPass":  true,
+    "status":  "PASS",
+    "missingReports":  [
+
+                       ],
+    "smoke":  {
+                  "present":  true,
+                  "pass":  true,
+                  "failedChecks":  [
+
+                                   ]
+              },
+    "baseline":  {
+                     "present":  true,
+                     "pass":  true,
+                     "observed":  {
+                                      "cpuMsPerTick":  1.42,
+                                      "avgKbPerObserverPerSec":  5.8,
+                                      "peakKbPerObserverPerSec":  10.6
+                                  },
+                     "budgets":  {
+                                     "cpuMsPerTick":  1.5,
+                                     "avgKbPerObserverPerSec":  6,
+                                     "peakKbPerObserverPerSec":  12
+                                 }
+                 },
+    "estimate":  {
+                     "present":  true,
+                     "pass":  true,
+                     "projected":  {
+                                       "cpuMsPerTick":  3.408,
+                                       "avgKbPerObserverPerSec":  13.92,
+                                       "peakKbPerObserverPerSec":  25.44
+                                   },
+                     "budgets":  {
+                                     "cpuMsPerTick":  3.6,
+                                     "avgKbPerObserverPerSec":  14.4,
+                                     "peakKbPerObserverPerSec":  28.8
+                                 }
+                 },
+    "suggestions":  [
+                        "No immediate tuning action required for current inputs."
+                    ]
+}
