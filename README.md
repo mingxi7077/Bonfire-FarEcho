@@ -8,6 +8,8 @@
 
 Bonfire FarEcho is a long-range player presence system that adds lightweight awareness outside vanilla tracking distance through a server plugin, a Fabric client companion, and a shared protocol layer.
 
+> Non-commercial source-available. Commercial use requires prior written permission via `mingxi7707@qq.com`.
+
 ## Repository Layout
 
 - `server-paper/`: server-side routing, prioritization, and transport hooks.
