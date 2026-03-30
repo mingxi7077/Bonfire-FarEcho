@@ -1,0 +1,36 @@
+# Bonfire FarEcho
+
+![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![Stack](https://img.shields.io/badge/stack-Paper%20%2B%20Fabric-brightgreen)
+![Java](https://img.shields.io/badge/java-21-orange)
+![Status](https://img.shields.io/badge/status-prototype-informational)
+
+Bonfire FarEcho is a long-range player presence system that adds lightweight awareness outside vanilla tracking distance through a server plugin, a Fabric client companion, and a shared protocol layer.
+
+## Repository Layout
+
+- `server-paper/`: server-side routing, prioritization, and transport hooks.
+- `client-fabric-1.21.8/`: client HUD, world markers, and ghost rendering.
+- `shared-protocol/`: packet models and protocol codecs shared by both sides.
+- `testbed/`: repeatable profiling and capacity estimation helpers.
+
+## Goals
+
+- Preserve vanilla visibility behavior when players re-enter normal tracking range.
+- Provide low-cost remote awareness instead of full remote entity simulation.
+- Keep protocol and performance tuning separate from gameplay plugin logic.
+
+## Build
+
+```powershell
+.\gradlew.bat build
+```
+
+## Status
+
+- This repository is an active prototype and integration workspace.
+- Test artifacts and generated bundles are intentionally excluded from Git.
+
+## License
+
+GPL-3.0
