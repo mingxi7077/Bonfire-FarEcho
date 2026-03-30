@@ -1,6 +1,7 @@
 # Bonfire FarEcho
 
-![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![License](https://img.shields.io/badge/license-BNSL--1.0-red)
+![Commercial Use](https://img.shields.io/badge/commercial-use%20by%20written%20permission%20only-critical)
 ![Stack](https://img.shields.io/badge/stack-Paper%20%2B%20Fabric-brightgreen)
 ![Java](https://img.shields.io/badge/java-21-orange)
 ![Status](https://img.shields.io/badge/status-prototype-informational)
@@ -33,4 +34,6 @@ Bonfire FarEcho is a long-range player presence system that adds lightweight awa
 
 ## License
 
-GPL-3.0
+Bonfire Non-Commercial Source License 1.0
+
+Commercial use is prohibited unless you first obtain written permission from `mingxi7707@qq.com`.

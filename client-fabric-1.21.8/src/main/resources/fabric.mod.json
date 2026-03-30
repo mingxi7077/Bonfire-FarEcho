@@ -10,9 +10,10 @@
   "contact": {
     "homepage": "https://github.com/mingxi7077/Bonfire-FarEcho",
     "sources": "https://github.com/mingxi7077/Bonfire-FarEcho",
-    "issues": "https://github.com/mingxi7077/Bonfire-FarEcho/issues"
+    "issues": "https://github.com/mingxi7077/Bonfire-FarEcho/issues",
+    "email": "mingxi7707@qq.com"
   },
-  "license": "GPL-3.0",
+  "license": "Bonfire Non-Commercial Source License 1.0",
   "environment": "client",
   "entrypoints": {
     "client": [
