@@ -2,8 +2,10 @@ name: BonfireFarEcho
 version: ${version}
 main: com.bonfire.farecho.server.FarEchoServerPlugin
 api-version: "1.21"
+description: Long-range player echo plugin for remote HUD and marker awareness
 authors:
   - Bonfire
+website: https://github.com/mingxi7077/Bonfire-FarEcho
 commands:
   farecho:
     description: FarEcho admin and debug commands

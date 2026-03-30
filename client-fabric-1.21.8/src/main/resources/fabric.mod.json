@@ -7,7 +7,12 @@
   "authors": [
     "Bonfire"
   ],
-  "license": "All-Rights-Reserved",
+  "contact": {
+    "homepage": "https://github.com/mingxi7077/Bonfire-FarEcho",
+    "sources": "https://github.com/mingxi7077/Bonfire-FarEcho",
+    "issues": "https://github.com/mingxi7077/Bonfire-FarEcho/issues"
+  },
+  "license": "GPL-3.0",
   "environment": "client",
   "entrypoints": {
     "client": [
